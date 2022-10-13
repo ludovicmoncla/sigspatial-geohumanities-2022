@@ -7561,6 +7561,52 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+
+
+#fh5co-keynote {
+  clear: both;
+  padding: 0;
+}
+@media screen and (max-width: 768px) {
+  #fh5co-keynote {
+    padding: 4em 0;
+  }
+}
+#fh5co-keynote .fh5co-staff {
+  margin-bottom: 0px;
+}
+#fh5co-keynote .fh5co-staff figure {
+  margin-bottom: 15px;
+}
+
+#fh5co-keynote .fh5co-staff figure img{
+  height: 200px;
+}
+
+
+#fh5co-keynote .fh5co-staff h3 {
+  font-size: 18px;
+  line-height: 22px;
+  position: relative;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+}
+#fh5co-keynote .fh5co-staff h3:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 30px;
+  height: 2px;
+  background: #6826F7;
+}
+#fh5co-keynote .fh5co-staff .fh5co-social a {
+  color: #ccc;
+}
+#fh5co-keynote .fh5co-staff .fh5co-social a:hover {
+  color: #000;
+}
+
 #fh5co-team {
   clear: both;
   padding: 7em 0;
